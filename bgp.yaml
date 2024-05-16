@@ -1,0 +1,4 @@
+---
+bgp_as: 100
+neighbor_ip: 1.1.1.20
+remote_as: 200
