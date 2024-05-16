@@ -3,7 +3,7 @@ from jinja2 import Environment, FileSystemLoader
 from netmiko import ConnectHandler
 env = Environment(loader=FileSystemLoader("."))
 
-print("\n ******** Welcome Guys,Here You will see some configuration protocols on my eve virtual router ( automate this conf using jenkins) ******** \n")
+print("\n ********* Welcome Guys,Here You will see some configuration protocols on my eve virtual router ( automate this conf using jenkins) ******** \n")
 
 protocol= input("Do you want bgp or ospf or static protocol ! : ")
 
